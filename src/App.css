@@ -12,3 +12,11 @@ header {
   text-align: center;
   margin-top: 20px;
 }
+
+.App-footer {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1rem;
+  color: green;
+  text-align: center;
+  margin: 30px 0;
+}
