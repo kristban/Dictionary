@@ -1,1 +1,14 @@
+.title {
+  margin: 0 auto;
+  display: block;
+  size: 2cm;
 
+}
+
+header {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2.5rem;
+  color: #0b5056;
+  text-align: center;
+  margin-top: 20px;
+}
