@@ -1,8 +1,8 @@
-.title {
+img.logo {
   margin: 0 auto;
   display: block;
-  size: 2cm;
-
+  width: 250px;
+  border: 1px solid #1f3a5f
 }
 
 header {

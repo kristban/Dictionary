@@ -1,5 +1,5 @@
 import './App.css'
-import logo from './assets/logo.png'
+import logo from './assets/dictionary-logo.png'
 import Dictionary from './Dictionary'
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <div className='container'>
       <header className="App-header">
-        <img className="title" src={logo} alt="pepper" />
+        <img className="logo" src={logo} alt="pepper" />
         Dictionary
         <a href="https://canine-companion.vercel.app/" target="_blank" className='btn btn-primary shadow'>Canine Companion</a>
       </header>
