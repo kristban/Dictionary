@@ -19,6 +19,7 @@ export default function Dictionary() {
         event.preventDefault();
         if (!word.trim()) return;
 
+        //documentation: https://www.shecodes.io/learn/apis/dictionary-api
         const key = "7a9df9a4f940btc116d43db796o3aa67";
         const apiUrl = `https://api.shecodes.io/dictionary/v1/define?word=${encodeURIComponent(word.trim())}&key=${key}`;
 
