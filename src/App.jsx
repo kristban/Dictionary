@@ -11,7 +11,7 @@ function App() {
       <header className="App-header">
         <img className="logo" src={logo} alt="pepper" />
         Dictionary
-        <a href="https://canine-companion.vercel.app/" target="_blank" className='btn btn-primary shadow'>Canine Companion</a>
+        
       </header>
       <main>
         <Dictionary />
