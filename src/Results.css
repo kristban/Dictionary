@@ -1,0 +1,28 @@
+.Results section {
+    padding: 20px 0;
+}
+
+/* A line above every section except the first */
+.Results section + section {
+    border-top: 1px solid #eadfcd;
+}
+
+.Results h2 {
+    margin: 0;
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+.Results h3 {
+    margin: 0 0 12px;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #0b5056;
+}
+
+.Results .phonetics p {
+    margin: 4px 0 0;
+    color: #8a7a5f;
+    font-style: italic;
+}
