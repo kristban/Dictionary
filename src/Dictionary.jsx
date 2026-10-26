@@ -4,7 +4,7 @@ import Results from "./Results";
 import Photos from "./Photos";
 import './Dictionary.css';
 
-const exampleWords = ["sunset", "ocean", "coffee", "garden"];
+const exampleWords = ["sunset", "ocean", "moon", "garden"];
 
 export default function Dictionary(props) {
     const [word, setWord] = useState(props.defaultKeyword);
