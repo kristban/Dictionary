@@ -1,0 +1,32 @@
+.Photos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+}
+
+.Photos a {
+    display: block;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #eadfcd;
+    box-shadow: 0 2px 8px rgba(31, 58, 95, 0.08);
+}
+
+.Photos img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.Photos a:hover img {
+    transform: scale(1.05);
+}
+
+/* Two pictures per row on small screens */
+@media (max-width: 600px) {
+    .Photos {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

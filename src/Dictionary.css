@@ -1,11 +1,26 @@
 .Dictionary {
     font-family: 'Arial', sans-serif;
     color: #1f3a5f;               /* your logo navy */
+    display: flex;
+    flex-direction: column;
+    gap: 24px;                    /* space between the two cards */
+}
+
+/* Shared look for the search card and the results card */
+.Dictionary .card {
     padding: 20px;
     background-color: #fdf8f0;    /* warm cream */
     border: 1px solid #eadfcd;    /* soft beige edge */
     border-radius: 12px;
     box-shadow: 0 2px 8px rgba(31, 58, 95, 0.06);
+}
+
+.Dictionary .search-card {
+    padding: 28px 20px;
+}
+
+.Dictionary .results-card {
+    padding: 28px;
 }
 
 .Dictionary pre {
@@ -34,7 +49,30 @@
     transition: border-color 0.2s, box-shadow 0.2s;
 }
 .Dictionary form {
-    margin-bottom: 32px;
+    margin: 0;
+}
+
+.Dictionary .hint {
+    margin: 10px 0 0;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #8a7a5f;
+}
+
+.Dictionary .example-word {
+    margin: 0 4px;
+    padding: 2px 10px;
+    font-size: 0.9rem;
+    color: #1f3a5f;
+    background-color: #ffffff;
+    border: 1px solid #eadfcd;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: border-color 0.2s;
+}
+
+.Dictionary .example-word:hover {
+    border-color: #1f3a5f;
 }
 
 .Dictionary input:focus {

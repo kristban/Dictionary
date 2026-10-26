@@ -10,3 +10,20 @@
     color: #6b6b6b;
     font-style: italic;
 }
+
+.Meaning .example {
+    margin: 4px 0 0;
+    font-size: 0.9rem;
+    color: #6b6b6b;
+}
+
+.Meaning .synonyms {
+    margin: 4px 0 0;
+    font-size: 0.9rem;
+    color: #0b5056;
+}
+
+.Meaning .synonyms ul {
+    margin: 2px 0 0;
+    padding-left: 20px;
+}

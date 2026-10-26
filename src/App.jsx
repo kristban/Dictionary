@@ -14,7 +14,7 @@ function App() {
         
       </header>
       <main>
-        <Dictionary />
+        <Dictionary defaultKeyword="moon" />
       </main>
       <footer className="App-footer">
         Coded by myself
